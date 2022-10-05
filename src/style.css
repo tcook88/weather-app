@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+}
+    
+.wrapper { 
+    border: 2px solid #385170;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 1152px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Inter', sans-serif;
+    background-color: rgba(159, 211, 199, 0.2)
+}
+
+.title {
+    color: #385170;
+   font-size: 30px;
+}
+
+.input-wrapper { 
+    border: 2px solid #bcbcbc;
+    border-radius: 16px;
+    padding: 4px;
+    display: flex;
+}
+
+.city-input { 
+    border: none;
+    width: 100%;
+    background: transparent;
+    padding-left: 12px;
+}
+
+.city-input:focus {
+    outline: none;
+}
+
+.button { 
+    border: none;
+    color: white;
+    background-color: #385170;
+    border-radius: 12px;
+    padding: 4px 12px;
+}
+
+.location-button { 
+    border: none;
+    background: transparent;
+    margin-right: 4px;
+}
+
+.fa-location-arrow { 
+    font-size: 20px;
+    color: #385170;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-wrapper { 
+    padding: 16px;
+    border: 2px solid #bcbcbc;
+    border-radius: 8px;
+    background: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%); 
+}
+
+.icon-now { 
+    font-size: 64px;
+    text-align: center;
+}
+
+.description-now { 
+    text-align: center;
+}
+
+.temp-now { 
+    font-size: 56px;
+    display: flex;
+    color: #385170;
+    text-align: center;
+    justify-content: center;
+}
+
+.unit { 
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 700; 
+    text-decoration: none; 
+    color: #385170; 
+    display: flex;
+    margin-right: 2px;
+    margin-left: 2px;
+    margin-top: 12px;
+}
+
+.f {
+    border-right: solid 2px #385170;
+    padding-right: 4px;
+}
+
+.weather { 
+    color: #385170;
+}
+
+.day { 
+    color:#385170;
+}
+
+.daily-icon { 
+    font-size: 28px;
+}
+
+.high { 
+    color: #BC2524;
+}
+
+.low { 
+    color: #0C005A;
+}
+
+.weather-row { 
+    margin-top: 32px;
+}
+
+.col-daily { 
+    border-right: 2px solid #bcbcbc;
+    text-align: center;
+}
+
+.col-daily:last-child { 
+    border: none;
+}
